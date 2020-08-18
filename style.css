@@ -1,0 +1,364 @@
+/*  */
+
+.red {
+  color: rgb(194, 0, 22);
+}
+
+.pink {
+  color: rgb(214, 30, 66);
+}
+
+.yellow {
+  color: rgb(240, 223, 23);
+}
+
+.red-bg {
+  background: rgb(194, 0, 22);
+  color: white;
+}
+
+.pink-bg {
+  background: rgb(214, 30, 66);
+  color: white;
+}
+
+.yellow-bg {
+  background: rgb(240, 223, 23);
+  color: white;
+}
+
+.btn.pill {
+  border-radius: 50px !important;
+}
+
+.btn.red {
+  background: rgb(215, 31, 67);
+  color: white;
+}
+
+.btn.orange {
+  background: rgb(240, 151, 29);
+  color: white;
+}
+
+.btn.lightgray {
+  background: rgb(230, 230, 230);
+  color: rgb(215, 31, 67);
+}
+
+.btn.orange {
+  background: rgb(240, 149, 28);
+  color: white;
+}
+
+/*  */
+
+
+.navbar {
+  width: 100%;
+  background: transparent !important;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+}
+
+.navbar .navbar-brand {
+  color: rgb(46, 46, 46);
+  font-size: 30px;
+  font-weight: 700;
+  z-index: 100;
+}
+
+.navbar .navbar-toggler {
+  background: rgb(214, 30, 66);
+  overflow: hidden;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: white;
+  z-index: 100;
+}
+
+.navbar .navbar-toggler .navbar-toggle-icon {
+  color: white;
+  border-color: white;
+}
+
+
+.top-banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  height: auto;
+  height: 600px;
+  /* background: url('https://i.picsum.photos/id/45/1920/1080.jpg?hmac=eGruPDOxTUiMnDRTGeDSEFVcBojgTFxobHULUwiu4Dc'); */
+  object-fit: cover;
+}
+
+.top-banner .content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.top-banner .highlight {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(239, 114, 101);
+}
+
+.top-banner .title, .medical-service .title, .speciality .title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.top-banner .body, .medical-service .body, .speciality .body {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(87, 87, 87);
+}
+
+.top-banner .small-square {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20vw;
+  height: 20vw;
+  max-height: 300px;
+  max-width: 300px;
+  z-index: 25;
+}
+
+.top-banner .large-square {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40vw;
+  height: 40vw;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.top-banner .center-rectangle {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 40vw;
+  height: 10vw;
+  max-height: 300px;
+  max-width: 500px;
+  z-index: 25;
+  transform: translateY(-40%) translateX(50%);
+}
+
+.top-banner .center-rectangle .top-right-square {
+  position: absolute;
+  top: 10%;
+  right: -10%;
+  max-height: 120px;
+  max-width: 120px;
+  width: 15vw;
+  height: 15vw;
+  z-index: 50;
+  padding: 2%;
+  background: white;
+}
+
+.top-banner .center-rectangle .center {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  padding: 30px 50px;
+  width: 100%;
+  max-height: 400px;
+  max-width: 400px;
+  object-fit: contain;
+  overflow: hidden;
+  transform: translateX(50%);
+}
+
+.top-banner .center-rectangle .bottom-left-square {
+  position: absolute;
+  bottom: -20%;
+  left: -10%;
+  width: 20vw;
+  height: 20vw;
+  max-height: 140px;
+  max-width: 140px;
+  z-index: 25;
+  padding: 2%;
+  background: white;
+}
+
+/*  */
+
+.medical-service  {
+  padding: 5% 0;
+  background: rgb(245, 243, 253);
+}
+
+.medical-service .simple-cards .card-img-top {
+  width: 100%;
+  border: solid 1px rgb(134, 133, 133);
+  border-radius: 50%;
+  margin: 1.25rem auto 0;
+}
+
+.medical-service .simple-cards .card-text {
+  text-align: center;
+}
+
+.medical-service .detail-card {
+  height: 450px;
+}
+
+.medical-service .detail-card .card-img-top {
+  width: auto;
+  height: 40%;
+}
+
+.medical-service .detail-card .card-body {
+  height: 60%;
+}
+
+.medical-service .subtitle, .speciality .subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(239, 114, 101);
+}
+
+.speciality {
+  padding: 5% 0;
+  background: white;
+}
+
+.online-appointment {
+  position: relative;
+  margin: 50px 0;
+}
+
+
+.online-appointment .logo {
+  background: rgb(214, 30, 66);
+  border-radius: 50%;
+  width: 120px;
+}
+
+.online-appointment .lead {
+  color: rgb(150, 150, 150);
+}
+
+.online-appointment .meta-img {
+  width: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-40%) translateX(10%);
+}
+
+.no-service {
+  padding: 5% 0;
+}
+
+.no-service img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.no-service span {
+  font-size: 14px;
+  color: rgb(236, 236, 236);
+}
+
+/* Ipad */
+@media screen and (max-width: 1280px) {
+  .navbar {
+    width: 100%;
+    background: transparent !important;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+
+  .navbar .navbar-collapse {
+    background: white;
+    margin: -20px;
+    padding: 10px;
+  }
+
+  .top-banner .highlight, .medical-service .highlight, .speciality .highlight {
+    font-size: 16px;
+  }
+
+  .top-banner .title, .medical-service .title, .speciality .title {
+    font-size: 40px;
+  }
+
+  .top-banner .body, .medical-service .body, .speciality .body {
+    font-size: 14px;
+  }
+
+  .top-banner .center-rectangle {
+    width: 40vw;
+    height: 25vw;
+  }
+
+  .online-appointment .meta-img {
+    width: 300px;
+    transform: translateX(15%) translateY(-30%);
+  }
+
+
+  .medical-service .detail-card {
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .top-banner {
+    height: auto;
+  }
+
+  .top-banner .right-panel {
+    height: 400px !important;
+  }
+
+  .top-banner .small-square {
+    top: initial;
+    bottom: 0;
+    right: 0;
+  }
+
+  .top-banner .large-square {
+    top: initial;
+    width: 45vw;
+    height: 45vw;
+    bottom: 0;
+    right: 0;
+  }
+
+  .top-banner .center-rectangle {
+    width: 60vw;
+    height: 25vw;
+  }
+
+  .medical-service .simple-cards {
+    width: 400vw;
+  }
+
+  .online-appointment .meta-img {
+    margin: 50px 0 -30px -16px;
+    width: 100vw;
+    position: relative;
+    top: inherit;
+    right: inherit;
+    transform: none;
+  }
+
+  .medical-service .detail-card {
+    height: 450px;
+  }
+}
